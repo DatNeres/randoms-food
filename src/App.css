@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SuperBoys";
+  src: url("fonts/SuperBoys.ttf") format("truetype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+body {
+  user-select: none;
+  background-color: #ffefce;
+
+  /* background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);  */
+}
+
+.main__button--play {
+  width: 12rem;
+  height: 4rem;
+  margin-top: 4rem;
+  background: linear-gradient(to right, #ff8280, #ff6966);
+  background-color: #ff8181;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-weight: 800;
+  font-style: normal;
+  text-decoration: none;
+  border: 0px solid #000;
+  border-radius: 10px;
+  display: inline-block;
+}
+.main__button--play:hover {
+  background: linear-gradient(to right, #fd8787, #ff5555);
+  background-color: #ff9393;
+}
+.main__button--play:active {
+  transform: scale(0.95);
+}
+
+.main__button--about {
+  width: 12rem;
+  height: 4rem;
+  margin-top: 4rem;
+  background: linear-gradient(to right, #7298e4, #487de6);
+  background-color: #ff8181;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-weight: 800;
+  font-style: normal;
+  text-decoration: none;
+  border: 0px solid #000;
+  border-radius: 10px;
+  display: inline-block;
+}
+.main__button--about:hover {
+  background: linear-gradient(to right, #495ba1, #2b3a77);
+  background-color: #ff9393;
+}
+.main__button--about:active {
+  transform: scale(0.95);
+}
+
+.app__button--next {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Righteous";
+  font-size: 1.4rem;
+  padding: 0.6rem 1rem;
+  border-radius: 36px;
+  background-image: linear-gradient(170deg, #fd869c, #ee4060);
+}
+.app__button--next:hover {
+  background-image: linear-gradient(180deg, #ffa7b7, #ff395d);
+}
+.app__button--next:active {
+  transform: scale(0.95);
+}
+
+.app__button--back {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Righteous";
+  font-size: 1.4rem;
+  padding: 0.5rem 0.6rem 0.1rem 0.6rem;
+  border-radius: 36px;
+  background-image: linear-gradient(170deg, #c586ff, #a444ff);
+}
+.app__button--back:hover {
+  background-image: linear-gradient(180deg, #c586ff, #a444ff);
+}
+.app__button--back:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 1536px) {
+  .main__button--play {
+    width: 10rem;
+    height: 3.5rem;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+  }
+  .main__button--about {
+    width: 10rem;
+    height: 3.5rem;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+  }
+  .app__button--next {
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    padding: 0.6rem 1rem;
+    border-radius: 36px;
+    background-image: linear-gradient(170deg, #fd869c, #ee4060);
+  }
+}
+
+@media (max-width: 1280px) {
+  .main__button--play {
+    width: 7rem;
+    height: 3rem;
+    margin-top: 4rem;
+    font-size: 1.3rem;
+  }
+  .main__button--about {
+    width: 7rem;
+    height: 3rem;
+    margin-top: 4rem;
+    font-size: 1.3rem;
+  }
+}
