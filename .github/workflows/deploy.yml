@@ -1,0 +1,23 @@
+name: deploy
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: 
+      name: GeneralApps
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+      - run: yarn -i
+      - run: CI=false yarn build
+      - uses: up9cloud/action-rsync@master
+        env:
+          HOST: ${{secrets.HOST}}
+          USER: ${{secrets.USER}}
+          KEY: ${{secrets.SSH_KEY}}
+          TARGET: ${{secrets.TARGET}}
+          SOURCE: ${{secrets.SOURCE}}
+          VERBOSE: true
