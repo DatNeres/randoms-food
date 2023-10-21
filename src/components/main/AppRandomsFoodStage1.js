@@ -31,14 +31,14 @@ function AppRandomsFoodStage1({ selectOptionOne, setSelectOptionOne }) {
       <div className="mt-16 flex items-center justify-evenly max-2xl:mt-6">
         <img
           className={`w-[14rem] ${scale1} max-2xl:w-[12rem] max-sm:w-[8rem]`}
-          src="\images\randomsFood\app\option_one_vegetariano.png"
+          src="images\randomsFood\app\option_one_vegetariano.png"
           alt="Opção Vegetariana"
           onClick={changeScale1}
           select={selectOptionOne}
         ></img>
         <img
           className={`w-[14rem] ${scale2} max-2xl:w-[12rem] max-sm:w-[8rem]`}
-          src="\images\randomsFood\app\option_one_carnivoro.png"
+          src="images\randomsFood\app\option_one_carnivoro.png"
           alt="Opção Carnívora"
           onClick={changeScale2}
           select={selectOptionOne}

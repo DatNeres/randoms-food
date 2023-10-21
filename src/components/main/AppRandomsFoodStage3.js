@@ -17,7 +17,7 @@ function AppRandomsFoodStage3() {
         </p>
         <div className="flex items-center space-x-3 font-SuperBoys text-3xl text-blue-950">
           <img
-            src="\images\randomsfood\app\icon\caloria.png"
+            src="images\randomsfood\app\icon\caloria.png"
             alt="Símbolo da kcal"
           />
           <p>{kcalFood}</p>

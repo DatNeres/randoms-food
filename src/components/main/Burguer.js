@@ -4,7 +4,7 @@ export default function Burguer() {
     <div className="col-start-2 row-start-1 flex flex-col items-center justify-center max-2xl:mr-32 max-lg:mr-28 max-md:col-start-1 max-md:row-start-1 max-md:mr-0">
       <BurguerAnimations
         className="absolute z-50 col-span-2 mt-[-30rem] w-[26rem] drop-shadow-xl max-2xl:mt-[-20rem] max-2xl:w-[18rem] max-lg:mt-[-14rem] max-lg:w-[12rem]"
-        src="\images\randomsFood\pao_cima.png"
+        src="images\randomsFood\pao_cima.png"
         alt="Pão do hamburguer"
       />
       <BurguerAnimations
@@ -72,7 +72,7 @@ export default function Burguer() {
       />
       <BurguerAnimations
         className="absolute z-50 col-span-2 mb-[44rem] ml-[38rem] w-[3rem] drop-shadow-sm2 max-2xl:mb-[32rem] max-2xl:ml-[32rem] max-lg:mb-[18rem] max-lg:ml-[18rem] max-lg:w-[3rem]"
-        src="\images\randomsFood\destaque.png"
+        src="images\randomsFood\destaque.png"
         alt="Destaque superior direito"
         rotateValue="75deg"
       />
