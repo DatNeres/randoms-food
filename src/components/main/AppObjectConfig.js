@@ -545,7 +545,6 @@ function AppObjectConfig({ children }) {
       setIsVisible(true);
       setStep(<AppRandomsFoodStage3 />);
       setContainerImg(<ResultImgFood srcFood={srcFood} />);
-      SetFoodNameBtn("Replay ⭯");
 
       const newSelectedFoods = foods.filter(
         (selected) =>
@@ -588,14 +587,12 @@ function AppObjectConfig({ children }) {
     if (step.type === AppRandomsFoodStage3) {
       RandomsFoodPlay();
       setNextButtonDisabled(true);
+      SetFoodNameBtn("⏳");
       setTimeout(() => {
         setNextButtonDisabled(false);
         setBackButtonDisabled(false);
-      }, 6500);
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
+        SetFoodNameBtn("Replay");
+      }, 7000);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedFoods]);
@@ -605,14 +602,12 @@ function AppObjectConfig({ children }) {
       RandomsFoodPlay();
       setNextButtonDisabled(true);
       setBackButtonDisabled(true);
+      SetFoodNameBtn("⏳");
       setTimeout(() => {
         setNextButtonDisabled(false);
         setBackButtonDisabled(false);
-      }, 6500);
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
+        SetFoodNameBtn("Replay");
+      }, 7000);
     }
   }
   function BackButton() {

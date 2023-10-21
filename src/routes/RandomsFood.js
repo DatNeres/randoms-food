@@ -1,5 +1,5 @@
 import "../App.css";
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { AppContext } from "../components/main/AppObjectConfig";
 import Header from "../components/main/Header";
 import Footer from "../components/main/Footer";
@@ -27,6 +27,9 @@ function RandomsFood() {
         });
       }, 100);
   };
+  useEffect(() => {
+    scrollToTop();
+  }, [step.type === AppRandomsFoodStage3]);
 
   return (
     <div>

@@ -8,6 +8,13 @@ import Header from "../components/main/Header";
 import Footer from "../components/main/Footer";
 
 function Home() {
+  const scrollToTop = () => {
+    setTimeout(() => {
+      window.scrollTo({
+        top: 0,
+      });
+    }, 100);
+  };
   return (
     <>
       <Header />
@@ -21,7 +28,7 @@ function Home() {
               um tipo de comida para você.
             </p>
             <div className="flex-row space-x-10 max-sm:pb-10">
-              <button className="main__button--play">
+              <button className="main__button--play" onClick={scrollToTop}>
                 <Link to="/app">Play Me</Link>
               </button>
               <button className="main__button--about">
