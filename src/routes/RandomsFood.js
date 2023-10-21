@@ -3,6 +3,7 @@ import React, { useContext } from "react";
 import { AppContext } from "../components/main/AppObjectConfig";
 import Header from "../components/main/Header";
 import Footer from "../components/main/Footer";
+import AppRandomsFoodStage3 from "../components/main/AppRandomsFoodStage3";
 
 function RandomsFood() {
   const {
@@ -17,6 +18,18 @@ function RandomsFood() {
     Replay,
     foodNameBtn,
   } = useContext(AppContext);
+  // const [step, setStep] = useState(
+  //   <AppRandomsFoodStage1
+  //     selectOptionOne={selectOptionOne}
+  //     setSelectOptionOne={setSelectOptionOne}
+  //   />,
+  // );
+  const scrollToTop = () => {
+    if (step.type === AppRandomsFoodStage3)
+      window.scrollTo({
+        top: 0,
+      });
+  };
 
   return (
     <div>
@@ -48,6 +61,7 @@ function RandomsFood() {
                   onClick={() => {
                     NextButton();
                     Replay();
+                    scrollToTop();
                   }}
                   disabled={nextButtonDisabled}
                   style={{

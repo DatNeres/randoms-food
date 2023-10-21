@@ -4,7 +4,7 @@ import { AppContext } from "./AppObjectConfig";
 function AppRandomsFoodStage1({ selectOptionOne, setSelectOptionOne }) {
   const [foodsLoaded, setFoodsLoaded] = useState(false);
   const { foods } = useContext(AppContext);
-  console.log(foods);
+
   useEffect(() => {
     const imagePromises = foods.map((food) => {
       return new Promise((resolve, reject) => {
