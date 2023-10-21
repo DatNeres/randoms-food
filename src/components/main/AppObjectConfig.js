@@ -26,7 +26,7 @@ function AppObjectConfig({ children }) {
     800,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/brasil.png",
-    "images/randomsfood/app/food/arroz-feijao.png",
+    "images/randomsFood/app/food/arroz-feijao.png",
   );
 
   const food2 = new Food(
@@ -36,7 +36,7 @@ function AppObjectConfig({ children }) {
     500,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/china.png",
-    "images/randomsfood/app/food/arroz-oriental.png",
+    "images/randomsFood/app/food/arroz-oriental.png",
   );
 
   const food3 = new Food(
@@ -46,7 +46,7 @@ function AppObjectConfig({ children }) {
     350,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/china.png",
-    "images/randomsfood/app/food/bolinho-arroz.png",
+    "images/randomsFood/app/food/bolinho-arroz.png",
   );
 
   const food4 = new Food(
@@ -56,7 +56,7 @@ function AppObjectConfig({ children }) {
     400,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/bolo.png",
+    "images/randomsFood/app/food/bolo.png",
   );
 
   const food5 = new Food(
@@ -66,7 +66,7 @@ function AppObjectConfig({ children }) {
     450,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/bolo-chocolate.png",
+    "images/randomsFood/app/food/bolo-chocolate.png",
   );
   const food6 = new Food(
     "Brigadeiro",
@@ -75,7 +75,7 @@ function AppObjectConfig({ children }) {
     80,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/brasil.png",
-    "images/randomsfood/app/food/brigadeiro.png",
+    "images/randomsFood/app/food/brigadeiro.png",
   );
 
   const food7 = new Food(
@@ -85,7 +85,7 @@ function AppObjectConfig({ children }) {
     150,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/cookie.png",
+    "images/randomsFood/app/food/cookie.png",
   );
 
   const food8 = new Food(
@@ -95,7 +95,7 @@ function AppObjectConfig({ children }) {
     230,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/franca.png",
-    "images/randomsfood/app/food/croassaint.png",
+    "images/randomsFood/app/food/croassaint.png",
   );
 
   const food9 = new Food(
@@ -105,7 +105,7 @@ function AppObjectConfig({ children }) {
     400,
     "Carnívoro",
     "images/randomsFood/app/flags/india.png",
-    "images/randomsfood/app/food/curry.png",
+    "images/randomsFood/app/food/curry.png",
   );
 
   const food10 = new Food(
@@ -115,7 +115,7 @@ function AppObjectConfig({ children }) {
     350,
     "Carnívoro",
     "images/randomsFood/app/flags/brasil.png",
-    "images/randomsfood/app/food/espetinho.png",
+    "images/randomsFood/app/food/espetinho.png",
   );
 
   const food11 = new Food(
@@ -125,7 +125,7 @@ function AppObjectConfig({ children }) {
     600,
     "Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/frango-fritas.png",
+    "images/randomsFood/app/food/frango-fritas.png",
   );
 
   const food12 = new Food(
@@ -135,7 +135,7 @@ function AppObjectConfig({ children }) {
     900,
     "Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/frango-frito.png",
+    "images/randomsFood/app/food/frango-frito.png",
   );
 
   const food13 = new Food(
@@ -145,7 +145,7 @@ function AppObjectConfig({ children }) {
     60,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/gelatina.png",
+    "images/randomsFood/app/food/gelatina.png",
   );
 
   const food14 = new Food(
@@ -155,7 +155,7 @@ function AppObjectConfig({ children }) {
     500,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/alemanha.png",
-    "images/randomsfood/app/food/hamburguer.png",
+    "images/randomsFood/app/food/hamburguer.png",
   );
   const food15 = new Food(
     "Hot Dog",
@@ -164,7 +164,7 @@ function AppObjectConfig({ children }) {
     350,
     "Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/hotdog.png",
+    "images/randomsFood/app/food/hotdog.png",
   );
 
   const food16 = new Food(
@@ -174,7 +174,7 @@ function AppObjectConfig({ children }) {
     450,
     "Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/janta.png",
+    "images/randomsFood/app/food/janta.png",
   );
 
   const food17 = new Food(
@@ -184,7 +184,7 @@ function AppObjectConfig({ children }) {
     300,
     "Carnívoro",
     "images/randomsFood/app/flags/coreia-do-sul.png",
-    "images/randomsfood/app/food/korean-sopa.png",
+    "images/randomsFood/app/food/korean-sopa.png",
   );
 
   const food18 = new Food(
@@ -194,7 +194,7 @@ function AppObjectConfig({ children }) {
     400,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/japao.png",
-    "images/randomsfood/app/food/lamen.png",
+    "images/randomsFood/app/food/lamen.png",
   );
 
   const food19 = new Food(
@@ -204,7 +204,7 @@ function AppObjectConfig({ children }) {
     550,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/italia.png",
-    "images/randomsfood/app/food/macarronada.png",
+    "images/randomsFood/app/food/macarronada.png",
   );
 
   const food20 = new Food(
@@ -214,7 +214,7 @@ function AppObjectConfig({ children }) {
     450,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/mexico.png",
-    "images/randomsfood/app/food/nacho.png",
+    "images/randomsFood/app/food/nacho.png",
   );
 
   const food21 = new Food(
@@ -224,7 +224,7 @@ function AppObjectConfig({ children }) {
     250,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/panqueca.png",
+    "images/randomsFood/app/food/panqueca.png",
   );
 
   const food22 = new Food(
@@ -234,7 +234,7 @@ function AppObjectConfig({ children }) {
     350,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/pao-recheado.png",
+    "images/randomsFood/app/food/pao-recheado.png",
   );
   const food23 = new Food(
     "Picolé",
@@ -243,7 +243,7 @@ function AppObjectConfig({ children }) {
     100,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/picole.png",
+    "images/randomsFood/app/food/picole.png",
   );
 
   const food24 = new Food(
@@ -253,7 +253,7 @@ function AppObjectConfig({ children }) {
     150,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/pipoca.png",
+    "images/randomsFood/app/food/pipoca.png",
   );
 
   const food25 = new Food(
@@ -263,7 +263,7 @@ function AppObjectConfig({ children }) {
     300,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/italia.png",
-    "images/randomsfood/app/food/pizza.png",
+    "images/randomsFood/app/food/pizza.png",
   );
 
   const food26 = new Food(
@@ -273,7 +273,7 @@ function AppObjectConfig({ children }) {
     250,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/pudim.png",
+    "images/randomsFood/app/food/pudim.png",
   );
 
   const food27 = new Food(
@@ -283,7 +283,7 @@ function AppObjectConfig({ children }) {
     400,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/brasil.png",
-    "images/randomsfood/app/food/cuscuz.png",
+    "images/randomsFood/app/food/cuscuz.png",
   );
 
   const food28 = new Food(
@@ -293,7 +293,7 @@ function AppObjectConfig({ children }) {
     180,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/rosquinha.png",
+    "images/randomsFood/app/food/rosquinha.png",
   );
 
   const food29 = new Food(
@@ -303,7 +303,7 @@ function AppObjectConfig({ children }) {
     150,
     "Vegetariano",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/salada.png",
+    "images/randomsFood/app/food/salada.png",
   );
 
   const food30 = new Food(
@@ -313,7 +313,7 @@ function AppObjectConfig({ children }) {
     350,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/sanduiche.png",
+    "images/randomsFood/app/food/sanduiche.png",
   );
 
   const food31 = new Food(
@@ -323,7 +323,7 @@ function AppObjectConfig({ children }) {
     300,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/sanduiche-queijo.png",
+    "images/randomsFood/app/food/sanduiche-queijo.png",
   );
 
   const food32 = new Food(
@@ -333,7 +333,7 @@ function AppObjectConfig({ children }) {
     280,
     "Vegetariano",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/sanduiche-vegetariano.png",
+    "images/randomsFood/app/food/sanduiche-vegetariano.png",
   );
   const food33 = new Food(
     "Shawarma",
@@ -342,7 +342,7 @@ function AppObjectConfig({ children }) {
     400,
     "Carnívoro",
     "images/randomsFood/app/flags/turquia.png",
-    "images/randomsfood/app/food/shawarman.png",
+    "images/randomsFood/app/food/shawarman.png",
   );
 
   const food34 = new Food(
@@ -352,7 +352,7 @@ function AppObjectConfig({ children }) {
     250,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/sopa.png",
+    "images/randomsFood/app/food/sopa.png",
   );
 
   const food35 = new Food(
@@ -362,7 +362,7 @@ function AppObjectConfig({ children }) {
     350,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/japao.png",
-    "images/randomsfood/app/food/sopa-ovos.png",
+    "images/randomsFood/app/food/sopa-ovos.png",
   );
 
   const food36 = new Food(
@@ -372,7 +372,7 @@ function AppObjectConfig({ children }) {
     200,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/sorvete.png",
+    "images/randomsFood/app/food/sorvete.png",
   );
 
   const food37 = new Food(
@@ -382,7 +382,7 @@ function AppObjectConfig({ children }) {
     300,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/japao.png",
-    "images/randomsfood/app/food/sushi.png",
+    "images/randomsFood/app/food/sushi.png",
   );
 
   const food38 = new Food(
@@ -392,7 +392,7 @@ function AppObjectConfig({ children }) {
     350,
     "Carnívoro",
     "images/randomsFood/app/flags/mexico.png",
-    "images/randomsfood/app/food/taco.png",
+    "images/randomsFood/app/food/taco.png",
   );
 
   const food39 = new Food(
@@ -402,7 +402,7 @@ function AppObjectConfig({ children }) {
     280,
     "Vegetariano",
     "images/randomsFood/app/flags/mexico.png",
-    "images/randomsfood/app/food/taco-vegetariano.png",
+    "images/randomsFood/app/food/taco-vegetariano.png",
   );
 
   const food40 = new Food(
@@ -412,7 +412,7 @@ function AppObjectConfig({ children }) {
     400,
     "Vegatariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/torta.png",
+    "images/randomsFood/app/food/torta.png",
   );
 
   const food41 = new Food(
@@ -422,7 +422,7 @@ function AppObjectConfig({ children }) {
     350,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/global.png",
-    "images/randomsfood/app/food/torta-doce.png",
+    "images/randomsFood/app/food/torta-doce.png",
   );
 
   const food42 = new Food(
@@ -432,7 +432,7 @@ function AppObjectConfig({ children }) {
     120,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/japao.png",
-    "images/randomsfood/app/food/wagashi.png",
+    "images/randomsFood/app/food/wagashi.png",
   );
 
   const food43 = new Food(
@@ -442,7 +442,7 @@ function AppObjectConfig({ children }) {
     450,
     "Carnívoro",
     "images/randomsFood/app/flags/japao.png",
-    "images/randomsfood/app/food/yakissoba.png",
+    "images/randomsFood/app/food/yakissoba.png",
   );
 
   const food44 = new Food(
@@ -452,7 +452,7 @@ function AppObjectConfig({ children }) {
     350,
     "Vegetariano",
     "images/randomsFood/app/flags/japao.png",
-    "images/randomsfood/app/food/yakissoba-vegetariano.png",
+    "images/randomsFood/app/food/yakissoba-vegetariano.png",
   );
 
   const foods = [
