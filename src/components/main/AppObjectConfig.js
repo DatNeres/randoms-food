@@ -151,7 +151,7 @@ function AppObjectConfig({ children }) {
   const food14 = new Food(
     "Hamburguer",
     "Lanche",
-    "Original de Hamburgo na Alemanha, o hambúrguer é uma ótima sugestão para qualquer ocasião. Suculento e saboroso, pode ser mais saudável ou uma opção monstruosa cheia de recheio. Há opções vegetarianas disponíveis por exemplo hamburguer de soja.",
+    "Original de Hamburgo na Alemanha, o hambúrguer é uma ótima sugestão para qualquer ocasião, suculento e saboroso. Há opções vegetarianas disponíveis por exemplo hamburguer de soja.",
     500,
     "Vegetariano/Carnívoro",
     "images/randomsFood/app/flags/alemanha.png",
