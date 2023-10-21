@@ -3,6 +3,8 @@ import React, { useContext, useEffect, useState } from "react";
 import { AppContext } from "../components/main/AppObjectConfig";
 import Header from "../components/main/Header";
 import Footer from "../components/main/Footer";
+import AppRandomsFoodStage1 from "../components/main/AppRandomsFoodStage1";
+import AppRandomsFoodStage2 from "../components/main/AppRandomsFoodStage2";
 import AppRandomsFoodStage3 from "../components/main/AppRandomsFoodStage3";
 
 function RandomsFood() {
@@ -31,12 +33,17 @@ function RandomsFood() {
         img.onerror = () => reject();
       });
     });
-    Promise.all(imagePromises)
+    Promise.all([
+      Promise.all(imagePromises),
+      AppRandomsFoodStage1,
+      AppRandomsFoodStage2,
+      AppRandomsFoodStage3,
+    ])
       .then(() => {
         setFoodsLoaded(true);
       })
       .catch(() => {
-        console.error("Erro ao carregar imagens");
+        console.error("Erro ao carregar as imagens");
       });
   }, []);
 
