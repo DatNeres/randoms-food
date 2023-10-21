@@ -502,6 +502,28 @@ function AppObjectConfig({ children }) {
     food44,
   ];
 
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+
+  useEffect(() => {
+    let images = foods.map((food) => {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.src = food.image; // substitua 'image' pelo nome da propriedade que contém o URL da imagem
+        img.onload = resolve;
+        img.onerror = reject;
+      });
+    });
+
+    Promise.all(images)
+      .then(() => {
+        console.log("Todas as imagens foram carregadas");
+        setImagesLoaded(true);
+      })
+      .catch((err) => {
+        console.error("Falha ao carregar uma ou mais imagens:", err);
+      });
+  }, []);
+
   const [selectedFoods, setSelectedFoods] = useState([]);
 
   const [selectOptionOne, setSelectOptionOne] = useState("");
@@ -647,6 +669,7 @@ function AppObjectConfig({ children }) {
     kcalFood,
     flagFood,
     srcFood,
+    foods,
   };
 
   return (

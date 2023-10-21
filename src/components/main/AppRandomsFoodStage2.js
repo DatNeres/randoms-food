@@ -38,21 +38,21 @@ function AppRandomsFoodStage2({ selectOptionTwo, setSelectOptionTwo }) {
       <div className="mt-16 flex flex-wrap items-center justify-evenly gap-y-4 max-2xl:mt-6 max-2xl:justify-between">
         <img
           className={`w-[14rem] ${scale1} max-2xl:w-[11rem] max-sm:w-[8rem]`}
-          src="images\randomsFood\app\option_two_almoco.png"
+          src="images/randomsFood/app/option_two_almoco.png"
           alt="Opção Vegetariana"
           onClick={changeScale1}
           select={selectOptionTwo}
         ></img>
         <img
           className={`w-[14rem] ${scale2} max-2xl:w-[11rem] max-sm:w-[8rem]`}
-          src="images\randomsFood\app\option_two_jantar.png"
+          src="images/randomsFood/app/option_two_jantar.png"
           alt="Opção Carnívora"
           onClick={changeScale2}
           select={selectOptionTwo}
         ></img>
         <img
           className={`w-[14rem] ${scale3} max-2xl:w-[11rem] max-sm:w-[8rem]`}
-          src="images\randomsFood\app\option_two_lanche.png"
+          src="images/randomsFood/app/option_two_lanche.png"
           alt="Opção Vegetariana"
           onClick={changeScale3}
           select={selectOptionTwo}
