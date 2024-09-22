@@ -16,7 +16,6 @@ const router = createBrowserRouter(
       element: <RandomsFood />,
     },
   ],
-  { basename: "/randoms-food" },
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
